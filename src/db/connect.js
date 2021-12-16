@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const { Schema } = mongoose;
 
 /**
  * 1. Create the connection logic in the `/src/db/connect.js` file
@@ -15,6 +16,11 @@ const mongoose = require("mongoose");
  *   useUnifiedTopology: true,
  * }
  */
+
+mongoose.connect("mongodb://localhost:27017/myApp");
+
+console.log("starting");
 function connect() {}
 
 module.exports = connect;
+

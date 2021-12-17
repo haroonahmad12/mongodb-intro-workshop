@@ -1,5 +1,4 @@
-const mongoose = require("mongoose");
-const { Schema } = mongoose;
+const mongoose = require("mongoose");npnp
 
 /**
  * 1. Create the connection logic in the `/src/db/connect.js` file
@@ -23,4 +22,3 @@ console.log("starting");
 function connect() {}
 
 module.exports = connect;
-

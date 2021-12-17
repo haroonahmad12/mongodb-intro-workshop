@@ -10,7 +10,7 @@ logger.enableAll();
 const CONFIG = {
   production: {
     app: {
-      PORT: process.env.PORT || 4000,
+      PORT: process.env.PORT || 8000,
     },
     logger: {
       warn: logger.warn,
@@ -25,7 +25,7 @@ const CONFIG = {
   },
   development: {
     app: {
-      PORT: process.env.PORT || 4000,
+      PORT: process.env.PORT || 8000,
     },
     logger: {
       warn: logger.warn,
@@ -40,7 +40,7 @@ const CONFIG = {
   },
   test: {
     app: {
-      PORT: process.env.PORT || 4000,
+      PORT: process.env.PORT || 8000,
     },
     logger: {
       warn: logger.warn,
